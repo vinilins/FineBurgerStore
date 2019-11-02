@@ -1,0 +1,54 @@
+﻿<Window x:Class="ProjectStore.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectStore"
+        mc:Ignorable="d"
+        Title="Tela Login" Height="450" Width="800">
+    <Grid>
+        <Label Content="Usuário" 
+               HorizontalAlignment="Left" 
+               Margin="330,89,0,0" 
+               VerticalAlignment="Top" 
+               Name="texto_usuario"/>
+
+        <TextBox HorizontalAlignment="Left"
+                 Height="23" Margin="330,120,0,0" 
+                 TextWrapping="Wrap" VerticalAlignment="Top" 
+                 Width="120" 
+                 Name="textbox_email"/>
+
+        <Label Content="Senha" 
+               HorizontalAlignment="Left" 
+               Margin="330,148,0,0" 
+               VerticalAlignment="Top" 
+               RenderTransformOrigin="2.071,0.538" 
+               Name="text_senha"/>
+
+        <TextBox HorizontalAlignment="Left" 
+                 Height="22" Margin="330,174,0,0" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="120" 
+                 Name="textbox_password"/>
+
+        <Label x:Name="texto_titulo" 
+               Content="     Fine Burger" 
+               HorizontalAlignment="Left" 
+               Margin="330,45,0,0" 
+               VerticalAlignment="Top" 
+               Width="120" 
+               RenderTransformOrigin="0.5,0.5"/>
+
+        <Button x:Name="button_login" 
+                Content="Login" 
+                HorizontalAlignment="Left" 
+                Margin="330,201,0,0" 
+                VerticalAlignment="Top" 
+                Width="120" 
+                Click="button_login_Click"/>
+        <Label x:Name="label_warning" Content="" HorizontalAlignment="Left" Margin="330,226,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
