@@ -1,4 +1,4 @@
-# ●	FineBurger Store.
+# FineBurger Store.
 
 _Aplicação Desktop em desenvolvimento para gerenciar e controlar os gastos e lucros de uma hamburgueria chamada FineBurger._
 
